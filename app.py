@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 
 # 🔄 Load the saved model and encoders
-with open("C:/Users/himan/.spyder-py3/code/something/weather_model_fresh.sav", "rb") as file:
+with open("weather_model_fresh.sav", "rb") as file:
     model_data = pickle.load(file)
 
 model = model_data['model']
